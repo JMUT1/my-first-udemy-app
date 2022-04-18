@@ -3,9 +3,14 @@ import React from "react";
 
 
 const ExpenseForm = () =>{
-    <div>
-        <form></form>
-    </div>
+   return <form>
+       <div className="new-expense__controls">
+           <div className="new-expense__controls">
+               <label>Title</label>
+               <input type="text"/>
+           </div>
+       </div>
+   </form>
 }
 
 export default ExpenseForm;
